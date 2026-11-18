@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "helper-client",
+  "version": "${version}",
+  "name": "Helper Client",
+  "description": "A lightweight, client-side PvP HUD and menu for Minecraft Java 1.21.11.",
+  "authors": ["Helper Client Team"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.helperclient.HelperClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
